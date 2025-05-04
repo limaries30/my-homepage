@@ -1,13 +1,14 @@
 ---
 import astroLogo from '../assets/astro.svg';
 import background from '../assets/background.svg';
+import myphoto from '../assets/myphoto.jpg';
 
 import Navigation from '../components/Navigation.astro';
 import "../styles/global.css";
 ---
 
 <div id="container">
-	<img id="background" src={background.src} alt="" fetchpriority="high" />
+	<img id="background" src={myphoto.src} alt="" fetchpriority="high" />
 
 	<!-- ✅ Navigation bar inserted here -->
 	<Navigation />
